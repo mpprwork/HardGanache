@@ -30,7 +30,7 @@ describe ("MyTest", function(){
         it("Should set the right owner", async function(){
             const {store, owner} = await loadFixture(runEveryTime);
             expect(await store.owner()).to.equal(owner.address);
-            //
+            
             //console.log(owner);
             //console.log(store.owner);
         });
