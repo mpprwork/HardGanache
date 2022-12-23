@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/mpprwork/HardGanache#readme",
   "devDependencies": {
-    "hardhat": "^2.12.4"
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "ganache-cli": "^6.12.2",
+    "hardhat": "^2.12.4",
+    "solidity-coverage": "^0.8.2"
   },
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
