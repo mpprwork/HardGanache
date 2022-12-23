@@ -1,0 +1,29 @@
+{
+  "name": "hardganache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpprwork/HardGanache.git"
+  },
+  "author": "mihailpetrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpprwork/HardGanache/issues"
+  },
+  "homepage": "https://github.com/mpprwork/HardGanache#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "ganache-cli": "^6.12.2",
+    "hardhat": "^2.12.4",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0"
+  }
+}
